@@ -1,0 +1,42 @@
+# query {
+#   getAllPosts {
+#     id
+#     name
+#     topic
+#   }
+#   # getPost(id: "61dd0bf605ab2918b0cee3ec") {
+#   #   name
+#   #   topic
+#   # }
+# }
+
+mutation{
+
+  updatePost(id: "61deea98253274976514db5e", post: {
+    name: "This name 002"
+  }) {
+    id
+    name
+    topic
+  }
+  
+  # createPost(
+  #   post: {
+  #     topic: "This"
+  #     name: "This"
+  #     lang: "This"
+  #     capacity: "This"
+  #     creator: "This"
+  #   }
+  # ) {
+  #   id
+  #   topic
+  #   name
+  #   lang
+  #   capacity
+  #   creator
+  # }
+
+  # deletePost(id: "61def0d808224896f490b078")
+  
+}
