@@ -20,7 +20,7 @@ async function startServer() {
         res.send("Hello from express apollo server");
     })
 
-    await mongoose.connect('mongodb+srv://user:user123@cluster001.n4vq0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority')
+    await mongoose.connect('..........................................................MongoDB_URL...................................................................................')
     
     console.log('Mongoose connected ...');
 
